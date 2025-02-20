@@ -215,13 +215,14 @@ main {
 }
 
 .comment-card {
-  background-color: #f2f2f5;
+  background-color: #f5f5f9;
   padding: 15px;
   margin-bottom: 20px;
   border-left: 4px solid #d34843;
   border-radius: 4px;
   box-shadow: 1px 5px 11px rgba(0, 0, 0, 0.1);
 }
+
 
 .comment-text {
   font-size: 1rem;
