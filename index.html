@@ -71,24 +71,40 @@
         <button type="submit" class="urgent-btn">Submit Tip</button>
       </form>
       <p class="emergency-note">Any information could be helpful in bringing Alex home.</p>
-      <!-- Tips Section -->
-      <section class="tips-section">
+    </section>
+    <!-- Tips Section -->
+    <section class="tips-section">
 
-        <div class="tips-comments">
-          <h3>RECENT TIPS</h3>
-          <div class="comment-card">
-            <p class="comment-text">"I saw someone with Alex's description leaving the library on the day she went
-              missing around 10pm."
-            </p>
-            <p class="comment-author">- Jamie</p>
-          </div>
-          <div class="comment-card">
-            <p class="comment-text">"I saw Alex working on her computer in the library. She seemed really into whatever
-              she was writing."</p>
-            <p class="comment-author">- Alex's Friend</p>
-          </div>
+      <div class="tips-comments">
+        <h3>TIPS FROM OTHER SOURCES</h3>
+        <div class="comment-card">
+          <p class="comment-text">"I saw someone with Alex's description leaving the library on the day she went
+            missing around 10pm."
+          </p>
+          <p class="comment-author">- Jamie</p>
         </div>
-      </section>
+        <div class="comment-card">
+          <p class="comment-text">"I saw Alex working on her computer in the library. She seemed really into whatever
+            she was writing."</p>
+          <p class="comment-author">- Alex's Friend</p>
+        </div>
+      </div>
+    </section>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const form = document.querySelector(".contact-section form");
+
+        form.addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          document.querySelector(".contact-section").innerHTML = `
+              <h2>Your tip has been sent.</h2>
+              <p>We appreciate your help.</p>
+            `;
+        });
+      });
+    </script>
+
   </main>
 
   <footer>
