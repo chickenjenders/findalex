@@ -186,7 +186,7 @@ main {
 }
 /* Tips Section */
 .tips-section {
-  background-color: #f4f4f9;
+  background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 6px;
   padding: 20px;
@@ -215,12 +215,12 @@ main {
 }
 
 .comment-card {
-  background-color: #fff;
+  background-color: #f2f2f5;
   padding: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   border-left: 4px solid #d34843;
   border-radius: 4px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 5px 11px rgba(0, 0, 0, 0.1);
 }
 
 .comment-text {
