@@ -125,6 +125,15 @@ main {
   color: #555;
 }
 
+a {
+  color: #d9534f
+  
+}
+
+a:hover {
+  color: blue
+}
+
 /* Contact Section */
 .contact-section {
   background-color: #fff;
